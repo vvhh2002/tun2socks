@@ -12,7 +12,7 @@ import (
 	"github.com/xjasonlyu/tun2socks/proxy/proto"
 	"github.com/xjasonlyu/tun2socks/transport/socks5"
 
-	"github.com/Dreamacro/go-shadowsocks2/core"
+	"github.com/shadowsocks/go-shadowsocks2/core"
 )
 
 var _ Proxy = (*Shadowsocks)(nil)

@@ -3,7 +3,6 @@ module github.com/xjasonlyu/tun2socks
 go 1.17
 
 require (
-	github.com/Dreamacro/go-shadowsocks2 v0.1.7
 	github.com/go-chi/chi v4.1.2+incompatible
 	github.com/go-chi/cors v1.2.0
 	github.com/go-chi/render v1.0.1
@@ -20,9 +19,12 @@ require (
 	gvisor.dev/gvisor v0.0.0-20211015225752-e44bf784bcc9
 )
 
+require github.com/shadowsocks/go-shadowsocks2 v0.1.5
+
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/google/btree v1.0.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/riobard/go-bloom v0.0.0-20200614022211-cdc8013cb5b3 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
 )
